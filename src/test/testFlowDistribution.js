@@ -5,7 +5,7 @@ const Astrologer = require('../models/Astrologer');
 const User = require('../models/User');
 const { allocateUsersToAstrologers } = require('../services/flowDistributionService');
 
-mongoose.connect('mongodb+srv://ashwaniloveyou83:Q4vaqBHHyJeCtTV1@cluster0.bexnewj.mongodb.net', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv:add you mongoDb String', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(async () => {
         console.log('MongoDB connected');
 
